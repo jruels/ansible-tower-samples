@@ -1,9 +1,7 @@
- ---
-- hosts: localhost
+- name: Fun with files
+  hosts: localhost
   connection: local
   gather_facts: no
-  
-  
   tasks:
     - name : creating a directory
       file:
