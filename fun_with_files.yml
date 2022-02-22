@@ -23,9 +23,9 @@
        
     - name: creating file
       file:
-      path: "/tmp/devops2/devops2.txt"
-      state: touch 
-      mode: 777
-      owner: ansible
+        path: "/tmp/devops2/devops2.txt"
+        state: touch 
+        mode: 777
+        owner: ansible
       
     
